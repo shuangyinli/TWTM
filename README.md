@@ -4,7 +4,7 @@ The paper is at http://dl.acm.org/citation.cfm?id=2540540 <br/>
 Author: Shuangyin Li, Jiefei Li, Rong Pan <br/>
 Sun Yat-sen University <br/>
 <br/>
-Any question about code please contact us by emails.
+Any question about code please contact us by emails.<br/>
 lishyin AT mail2.sysu.edu.cn.<br/>
 lijiefei AT mail2.sysu.edu.cn.<br/>
 panr AT sysu.edu.cn.<br/>
