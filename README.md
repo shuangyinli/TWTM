@@ -5,7 +5,7 @@ Author: Shuangyin Li, Jiefei Li, Rong Pan <br/>
 Sun Yat-sen University <br/>
 <br/>
 Any question about code please contact us by emails.<br/>
-lishyin AT mail2.sysu.edu.cn.<br/>
+shuangyinli AT cse.ust.hk<br/>
 lijiefei AT mail2.sysu.edu.cn.<br/>
 panr AT sysu.edu.cn.<br/>
 
