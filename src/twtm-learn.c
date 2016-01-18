@@ -1,9 +1,3 @@
-/*============================================================================= 
-#  Author:          JiefeiLi
-#  Email:           lijiefei@mail2.sysu.edu.cn 
-#  School:          Sun Yat-sen University
-=============================================================================*/ 
-
 #include "twtm-learn.h"
 
 void get_descent_pi(Document** corpus, twtm_model* model,double* descent_pi) {
