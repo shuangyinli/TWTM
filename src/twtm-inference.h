@@ -1,9 +1,3 @@
-/*============================================================================= 
-#  Author:          JiefeiLi
-#  Email:           lijiefei@mail2.sysu.edu.cn 
-#  School:          Sun Yat-sen University
-=============================================================================*/
-
 #ifndef TWTM_INFERENCE_H
 #define TWTM_INFERENCE_H
 
