@@ -5,7 +5,7 @@ max_xi_iter 100
 xi_learn_rate 10
 xi_min_eps 0.00001
 max_em_iter 100
-num_threads 4
+num_threads 10
 var_converence 1e-6
 max_var_iter 30
 em_converence 1e-4

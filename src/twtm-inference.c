@@ -127,12 +127,6 @@ inline void init_xi(double* xi,int num_labels) {
     for (int i = 0; i < num_labels; i++) xi[i] = util::random();//init 100?!
 }
 
-inline bool has_neg_value(double* vec,int dim) {
-    for (int i =0; i < dim; i++) {
-        if (vec[dim] < 0)return true;
-    }
-    return false;
-}
 
 void inference_xi(Document* doc, twtm_model* model,Config* config) {
     int num_labels = doc->num_labels;

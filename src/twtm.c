@@ -390,4 +390,3 @@ int main(int argc, char* argv[]) {
     if (argc > 1 && strcmp(argv[1], "lda-inf") == 0) lda_infer_twtm(argv[2], argv[3], argv[4], argv[5], argv[6]);
     return 0;
 }
-

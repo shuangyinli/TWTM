@@ -74,7 +74,7 @@ void learn_pi(Document** corpus, twtm_model* model, Config* config) {
         last_z = z;
         memcpy(last_pi,model->pi,sizeof(double) * num_labels);
         get_descent_pi(corpus,model,descent_pi); 
-        for (int i = 0; !has_neg_value_flag && i < num_labels; i++) {
+        for (int i = 0; i < num_labels; i++) {
             model->pi[i] += learn_rate * descent_pi[i];
             if (model->pi[i] < 0) has_neg_value_flag = true;
         }
