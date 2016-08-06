@@ -243,7 +243,7 @@ void run_thread_inference(Document** corpus, twtm_model* model, Config* config) 
     int i;
     Thread_Data** thread_datas = new Thread_Data* [num_threads];
     for (i = 0; i < num_threads - 1; i++) {
-        thread_datas[i] = new Thread_Data(corpus, i * num_per_threads, (i+1)*num_per_threads, config, model);;
+        thread_datas[i] = new Thread_Data(corpus, i * num_per_threads, (i+1)*num_per_threads, config, model);
         pthread_create(&pthread_ts[i], NULL, thread_inference, (void*) thread_datas[i]);
     }
     thread_datas[i] = new Thread_Data(corpus, i * num_per_threads, num_docs, config, model);;
